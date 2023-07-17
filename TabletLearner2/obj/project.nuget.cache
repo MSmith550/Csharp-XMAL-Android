@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "riXj1DBA1S0C+37CTXR1N88vvA5Nrhqx9Hua7YEl695UpXRl3Y8i4mq4nn2OQ0/4QOuK+4zh/MRj7Frnvpt1OA==",
+  "success": true,
+  "projectFilePath": "E:\\VSPrograms\\TabletLearner2\\TabletLearner2\\TabletLearner2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

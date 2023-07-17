@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabletLearner2.Views.MathPage"
+             xmlns:vm="clr-namespace:TabletLearner2.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:MathPageViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10" BackgroundColor="Indigo">
+        <Label x:Name="Levelset"
+            Text="Current Level set to: 0" />
+        <Stepper  Maximum="2" Minimum="0"
+            x:Name="level"
+            Increment="1"
+            ValueChanged="level_ValueChanged"/>
+        <Label x:Name="editor"
+            Text="Question"
+            HeightRequest="100" FontSize="Medium" FontAttributes="Bold" IsVisible="True" />
+        <Editor x:Name="usersAnswer" Placeholder="Answer Here"
+                Keyboard="Numeric"/>
+        <ScrollView>
+            <Grid ColumnDefinitions="*,*" Margin="30" RowSpacing="20">
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="0"
+                    Text="Addition Question"
+                    Clicked="AdditionButton_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White" />
+                <Button Margin="0,10,0,0" Text="Answer"
+                    Grid.Column="1"
+                    x:Name="AnswerButton"
+                    Clicked="AdditionAnswer_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    IsEnabled="False"/>
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Subtraction Question"
+                    Clicked="SubtractionButton_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White" />
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    Text="SubtractionAnswer"
+                    x:Name="SubtractionAnswerButton"
+                    Clicked="SubtractionAnswer_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    IsEnabled="False"/>
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    Text="Multiplacation Question"
+                    x:Name="MultiplacationQuestionButton"
+                    Clicked="MultiplacationButton_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"/>
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="1"
+                    Grid.Row="2"
+                    Text="Multiplacation Answer"
+                    x:Name="MultiplacationAnswerButton"
+                    Clicked="MultiplacationAnswer_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    IsEnabled="False"/>
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="0"
+                    Grid.Row="4"
+                    Text="Word Problem"
+                    x:Name="MathWordButton"
+                    Clicked="MathWord_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"/>
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="0"
+                    Grid.Row="3"
+                    Text="Double Questions"
+                    x:Name="DoubleQuestionButton"
+                    Clicked="DoubleQuestion_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    IsEnabled="True"/>
+                <Button Margin="0,10,0,0" 
+                    Grid.Column="1"
+                    Grid.Row="3"
+                    Text="Double Questions Answer"
+                    x:Name="DoubleQuestionAnswerButton"
+                    Clicked="DoubleQuestionAnswer_Clicked"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    IsEnabled="False"/>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
