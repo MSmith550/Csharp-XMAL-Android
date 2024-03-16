@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace TabletLearner2.Views
 {
@@ -30,6 +31,23 @@ namespace TabletLearner2.Views
             indexNumber = rnd.Next(sentanceList.Length);
             sentance = sentanceList.GetValue(indexNumber).ToString();
             editor.Text = sentance;
+        }
+
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            // Get the text from the Label
+            string textToSpeak = editor.Text;
+
+            // Specify the speech rate (0.5 is slower, 2.0 is faster)
+            float speechRate = 0.1f; // Adjust this value as needed
+
+
+            // Speak the text using TextToSpeech API
+            await TextToSpeech.SpeakAsync(textToSpeak, new SpeechOptions
+            {
+                Pitch = speechRate // Set the speech rate
+            });
+
         }
     }
 }

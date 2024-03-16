@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|e:\\vsprograms\\tabletlearner2\\csharp-xmal-android\\tabletlearner2\\views\\wordspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|solutionrelative:tabletlearner2\\views\\wordspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|e:\\vsprograms\\tabletlearner2\\csharp-xmal-android\\tabletlearner2\\views\\sentancepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|solutionrelative:tabletlearner2\\views\\sentancepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|e:\\vsprograms\\tabletlearner2\\csharp-xmal-android\\tabletlearner2\\views\\wordspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|solutionrelative:tabletlearner2\\views\\wordspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70E36CE1-4065-4FDA-94CD-4E8E39CC0FE9}|TabletLearner2.Android\\TabletLearner2.Android.csproj|E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\tabletlearner2.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70E36CE1-4065-4FDA-94CD-4E8E39CC0FE9}|TabletLearner2.Android\\TabletLearner2.Android.csproj|solutionrelative:tabletlearner2.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|e:\\vsprograms\\tabletlearner2\\csharp-xmal-android\\tabletlearner2\\views\\sentancepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|solutionrelative:tabletlearner2\\views\\sentancepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|e:\\vsprograms\\tabletlearner2\\csharp-xmal-android\\tabletlearner2\\views\\wordspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|solutionrelative:tabletlearner2\\views\\wordspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2567F2C4-54E1-461A-9B87-88DCEBEB42AF}|TabletLearner2\\TabletLearner2.csproj|e:\\vsprograms\\tabletlearner2\\csharp-xmal-android\\tabletlearner2\\viewmodels\\wordspagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SentancePage.xaml",
+              "DocumentMoniker": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\SentancePage.xaml",
+              "RelativeDocumentMoniker": "TabletLearner2\\Views\\SentancePage.xaml",
+              "ToolTip": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\SentancePage.xaml",
+              "RelativeToolTip": "TabletLearner2\\Views\\SentancePage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-16T01:44:05.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SentancePage.xaml.cs",
+              "DocumentMoniker": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\SentancePage.xaml.cs",
+              "RelativeDocumentMoniker": "TabletLearner2\\Views\\SentancePage.xaml.cs",
+              "ToolTip": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\SentancePage.xaml.cs",
+              "RelativeToolTip": "TabletLearner2\\Views\\SentancePage.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T01:31:21.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,38 +66,27 @@
               "RelativeDocumentMoniker": "TabletLearner2\\Views\\WordsPage.xaml",
               "ToolTip": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\WordsPage.xaml",
               "RelativeToolTip": "TabletLearner2\\Views\\WordsPage.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T18:53:58.408Z"
+              "WhenOpened": "2024-03-15T18:53:58.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2.Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "TabletLearner2.Android\\MainActivity.cs",
-              "ToolTip": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2.Android\\MainActivity.cs",
-              "RelativeToolTip": "TabletLearner2.Android\\MainActivity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:47:11.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WordsPage.xaml.cs",
               "DocumentMoniker": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\WordsPage.xaml.cs",
               "RelativeDocumentMoniker": "TabletLearner2\\Views\\WordsPage.xaml.cs",
               "ToolTip": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\Views\\WordsPage.xaml.cs",
               "RelativeToolTip": "TabletLearner2\\Views\\WordsPage.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABQAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T18:46:27.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WordsPageModel.cs",
               "DocumentMoniker": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\ViewModels\\WordsPageModel.cs",
               "RelativeDocumentMoniker": "TabletLearner2\\ViewModels\\WordsPageModel.cs",
@@ -79,7 +94,8 @@
               "RelativeToolTip": "TabletLearner2\\ViewModels\\WordsPageModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:46:24.882Z"
+              "WhenOpened": "2024-03-15T18:46:24.882Z",
+              "EditorCaption": ""
             }
           ]
         }
