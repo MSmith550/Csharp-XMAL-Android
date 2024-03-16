@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace TabletLearner2.Views
 {
@@ -16,10 +17,12 @@ namespace TabletLearner2.Views
         int indexNumber;
         string heartWord;
         //need to have 5 lists. pre-k, k, 1, 2, 3
-        string[] heartWordsList = {"The", "My", "Is", "I", "In", "A", "For", "Am", "Here", "At", "It", "Be", "And", "Go", "Like", "To", "Not", "You", "Do",
-            "To", "Can", "Are", "Did", "Will", "With", "Me", "No", "Say", "All", "Was", "So", "Now", "Have", "Come", "They", "This", "Said", "Down",
-            "That", "Ate", "Our", "Where", "Must", "He", "Who", "What", "We", "She", "But", "There", "Own", "Make", "Want", "Saw", "Please", "Good",
-            "New", "One", "Out", "Two", "Cat", "Fly", "Ship", "Flower", "Cat", "Bat", "Car", "Sun", "Big", "Light"};
+        string[] heartWordsList = {"The", "Of", "You", "And", "To", "How", "Out", "In", "Is", "For", "That", "It", "Their", "He", "Was", "His", "On", "Are", "Want",
+                                "As", "With", "This", "They", "If", "Will", "At", "Be", "Or", "Have", "From", "Up", "One", "Had", "By", "But", "Not", "May", "What",
+                                "All", "Were", "We", "When", "No", "Your", "Can", "Said", "There", "Down", "Now", "An", "Come"," Which"," She", "Do", "Came","These",
+                                "him", "any", "very", "think", "because", "then", "put", "about", "good", "going", "own" , "so", "has", "old", "around", "walk", "only",
+                                "them", "take", "saw", "too", "again", "our", "her", "go", "little", "every", "who", "both", "would", "see", "ask", "pretty", "been",
+                                "does", "make", "could", "over", "away", "goes", "write", "like", "look", "where", "here", "long", "know", "after", "before", "always"};
 
         
         public WordsPage()
@@ -32,6 +35,23 @@ namespace TabletLearner2.Views
             indexNumber = rnd.Next(heartWordsList.Length);
             heartWord = heartWordsList.GetValue(indexNumber).ToString();
             editor.Text = heartWord;
+        }
+
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            // Get the text from the Label
+            string textToSpeak = editor.Text;
+
+            // Specify the speech rate (0.5 is slower, 2.0 is faster)
+            float speechRate = 0.1f; // Adjust this value as needed
+
+
+            // Speak the text using TextToSpeech API
+            await TextToSpeech.SpeakAsync(textToSpeak, new SpeechOptions
+            {
+                Pitch = speechRate // Set the speech rate
+            });
+
         }
     }
 }

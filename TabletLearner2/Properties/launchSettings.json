@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TabletLearner2": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

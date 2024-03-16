@@ -29,6 +29,7 @@ E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netsta
 E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\TabletLearner2.AssemblyInfoInputs.cache
 E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\TabletLearner2.AssemblyInfo.cs
 E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\TabletLearner2.csproj.CoreCompileInputs.cache
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\TabletLearner2.sourcelink.json
 E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\XamlC.stamp
 E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\TabletLearner2.dll
 E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2\obj\Debug\netstandard2.0\refint\TabletLearner2.dll

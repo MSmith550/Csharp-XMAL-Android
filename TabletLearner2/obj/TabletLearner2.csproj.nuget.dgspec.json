@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VSPrograms\\TabletLearner2\\TabletLearner2\\TabletLearner2.csproj": {}
+    "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\TabletLearner2.csproj": {}
   },
   "projects": {
-    "E:\\VSPrograms\\TabletLearner2\\TabletLearner2\\TabletLearner2.csproj": {
+    "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\TabletLearner2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VSPrograms\\TabletLearner2\\TabletLearner2\\TabletLearner2.csproj",
+        "projectUniqueName": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\TabletLearner2.csproj",
         "projectName": "TabletLearner2",
-        "projectPath": "E:\\VSPrograms\\TabletLearner2\\TabletLearner2\\TabletLearner2.csproj",
+        "projectPath": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\TabletLearner2.csproj",
         "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-        "outputPath": "E:\\VSPrograms\\TabletLearner2\\TabletLearner2\\obj\\",
+        "outputPath": "E:\\VSPrograms\\TabletLearner2\\Csharp-XMAL-Android\\TabletLearner2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,6 +29,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,11 +61,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.8.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2622, )"
             }
           },
           "imports": [
@@ -66,11 +74,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

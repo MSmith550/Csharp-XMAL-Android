@@ -577,3 +577,9 @@ E:\VSPrograms\TabletLearner2\TabletLearner2.Android\obj\Debug\110\stamp\_Convert
 E:\VSPrograms\TabletLearner2\TabletLearner2.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 E:\VSPrograms\TabletLearner2\TabletLearner2.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 E:\VSPrograms\TabletLearner2\TabletLearner2.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2.Android\obj\Debug\110\build.props
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2.Android\obj\Debug\110\adb.props
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2.Android\obj\Debug\110\TabletLearner2.Android.csproj.AssemblyReference.cache
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2.Android\obj\Debug\110\stamp\_BuildLibraryImportsCache.stamp
+E:\VSPrograms\TabletLearner2\Csharp-XMAL-Android\TabletLearner2.Android\obj\Debug\110\res.flag
