@@ -7,3 +7,5 @@ The match screen also has an option for displaying different word problems (curr
 The words screen displays heart words and has a button to have the device speak the word
 
 The Sentance page displays different sentances for the user to read or the user can write them to practice handwriting
+
+APK is located in Bin/Release. Just need to grab the apk file and side load into an android device to use program
