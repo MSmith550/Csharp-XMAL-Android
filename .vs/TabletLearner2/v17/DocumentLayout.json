@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -55,8 +59,7 @@
               "RelativeToolTip": "TabletLearner2\\Views\\SentancePage.xaml.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T01:31:21.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T01:31:21.197Z"
             },
             {
               "$type": "Document",
@@ -68,8 +71,7 @@
               "RelativeToolTip": "TabletLearner2\\Views\\WordsPage.xaml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T18:53:58.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T18:53:58.408Z"
             },
             {
               "$type": "Document",
@@ -81,8 +83,7 @@
               "RelativeToolTip": "TabletLearner2\\Views\\WordsPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:46:27.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T18:46:27.918Z"
             },
             {
               "$type": "Document",
@@ -94,8 +95,11 @@
               "RelativeToolTip": "TabletLearner2\\ViewModels\\WordsPageModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:46:24.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T18:46:24.882Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

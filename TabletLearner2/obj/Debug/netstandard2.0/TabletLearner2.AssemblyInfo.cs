@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TabletLearner2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89c02c162c791cedbbe222cba51b65c338f1f1e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d239b792dc876128af4f4b1e69fe4792203664d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TabletLearner2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TabletLearner2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
